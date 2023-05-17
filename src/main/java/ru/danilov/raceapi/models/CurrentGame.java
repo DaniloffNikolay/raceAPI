@@ -3,8 +3,7 @@ package ru.danilov.raceapi.models;
 import engine.Game;
 
 public class CurrentGame {
-
-    private int id;
+    private long id;
     private Game game;
     private Person peronOne;
     private Person peronTwo;
@@ -19,11 +18,11 @@ public class CurrentGame {
         this.peronTwo = peronTwo;
     }
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 
