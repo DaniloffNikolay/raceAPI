@@ -1,0 +1,271 @@
+2023-05-17T12:35:36.814+03:00  INFO 5996 --- [main] ru.danilov.raceapi.RaceApiApplication    : Starting RaceApiApplication using Java 17.0.5 with PID 5996 (D:\работа\projects\raceAPI\target\classes started by danilov-na in D:\работа\projects\raceAPI)
+2023-05-17T12:35:36.853+03:00  INFO 5996 --- [main] ru.danilov.raceapi.RaceApiApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-05-17T12:35:38.509+03:00  INFO 5996 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-17T12:35:38.570+03:00  INFO 5996 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 0 JPA repository interfaces.
+2023-05-17T12:35:40.583+03:00  INFO 5996 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-17T12:35:40.600+03:00  INFO 5996 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-17T12:35:40.601+03:00  INFO 5996 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-17T12:35:40.784+03:00  INFO 5996 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-17T12:35:40.785+03:00  INFO 5996 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3828 ms
+2023-05-17T12:35:41.174+03:00  INFO 5996 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-17T12:35:41.606+03:00  INFO 5996 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7499eac7
+2023-05-17T12:35:41.609+03:00  INFO 5996 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-17T12:35:41.775+03:00  INFO 5996 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-17T12:35:42.065+03:00  INFO 5996 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-17T12:35:42.924+03:00  INFO 5996 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-17T12:35:43.337+03:00  INFO 5996 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-17T12:35:43.350+03:00  INFO 5996 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-17T12:35:43.461+03:00  WARN 5996 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-17T12:35:43.999+03:00  WARN 5996 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-05-17T12:35:44.222+03:00  WARN 5996 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: eda306dd-178f-4d1a-ae3d-f0b8c3ef204f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-05-17T12:35:44.588+03:00  INFO 5996 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4dffff9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2904bc56, org.springframework.security.web.context.SecurityContextHolderFilter@6ff8e744, org.springframework.security.web.header.HeaderWriterFilter@40ddf339, org.springframework.security.web.csrf.CsrfFilter@7296fe0b, org.springframework.security.web.authentication.logout.LogoutFilter@451af781, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@46e6458d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6207145c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7bb25046, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5c9e3d01, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@53e82089, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5e80d5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@69b1e8f8, org.springframework.security.web.access.ExceptionTranslationFilter@57bac3f0, org.springframework.security.web.access.intercept.AuthorizationFilter@49f50c8f]
+2023-05-17T12:35:44.715+03:00  INFO 5996 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-17T12:35:44.734+03:00  INFO 5996 --- [main] ru.danilov.raceapi.RaceApiApplication    : Started RaceApiApplication in 9.025 seconds (process running for 13.433)
+2023-05-17T12:36:36.627+03:00  INFO 5996 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-17T12:36:36.628+03:00  INFO 5996 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-17T12:36:36.630+03:00  INFO 5996 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-05-17T13:04:11.456+03:00  INFO 5996 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-17T13:04:11.942+03:00  INFO 5996 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-17T13:04:12.061+03:00  INFO 5996 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-05-17T13:04:54.393+03:00  INFO 10264 --- [main] ru.danilov.raceapi.RaceApiApplication    : Starting RaceApiApplication using Java 17.0.5 with PID 10264 (D:\работа\projects\raceAPI\target\classes started by danilov-na in D:\работа\projects\raceAPI)
+2023-05-17T13:04:54.434+03:00  INFO 10264 --- [main] ru.danilov.raceapi.RaceApiApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-05-17T13:05:02.216+03:00  INFO 10264 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-17T13:05:02.399+03:00  INFO 10264 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 0 JPA repository interfaces.
+2023-05-17T13:05:08.016+03:00  INFO 10264 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-17T13:05:08.109+03:00  INFO 10264 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-17T13:05:08.109+03:00  INFO 10264 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-17T13:05:11.404+03:00  INFO 10264 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-17T13:05:11.405+03:00  INFO 10264 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 16735 ms
+2023-05-17T13:05:12.079+03:00  INFO 10264 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-17T13:05:12.590+03:00  INFO 10264 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@554188ac
+2023-05-17T13:05:12.592+03:00  INFO 10264 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-17T13:05:12.674+03:00  INFO 10264 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-17T13:05:12.989+03:00  INFO 10264 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-17T13:05:15.052+03:00  INFO 10264 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-17T13:05:15.562+03:00  INFO 10264 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-17T13:05:15.581+03:00  INFO 10264 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-17T13:05:15.731+03:00  WARN 10264 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-17T13:05:15.828+03:00  WARN 10264 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: e31d1876-c61e-4dbb-b88c-2000e6b1bd77
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-05-17T13:05:16.143+03:00  INFO 10264 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2b2b7e3c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3ec082a1, org.springframework.security.web.context.SecurityContextHolderFilter@d7055be, org.springframework.security.web.header.HeaderWriterFilter@299a43d9, org.springframework.security.web.csrf.CsrfFilter@67a6a2d0, org.springframework.security.web.authentication.logout.LogoutFilter@42503099, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1a01ffff, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@12a6e8ed, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@45fb2354, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7a3c99f1, org.springframework.security.web.access.ExceptionTranslationFilter@22ae32ba, org.springframework.security.web.access.intercept.AuthorizationFilter@32d22650]
+2023-05-17T13:05:17.112+03:00  WARN 10264 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-05-17T13:05:17.683+03:00  INFO 10264 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-17T13:05:17.722+03:00  INFO 10264 --- [main] ru.danilov.raceapi.RaceApiApplication    : Started RaceApiApplication in 26.747 seconds (process running for 39.846)
+2023-05-17T13:05:35.705+03:00  INFO 10264 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-17T13:05:35.705+03:00  INFO 10264 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-17T13:05:35.708+03:00  INFO 10264 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-17T13:05:42.851+03:00  INFO 10264 --- [http-nio-8080-exec-5] ru.danilov.raceapi.RaceApiApplication    : GET: /game
+2023-05-17T13:05:42.994+03:00 ERROR 10264 --- [http-nio-8080-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "Object.equals(Object)" because "person" is null] with root cause
+
+java.lang.NullPointerException: Cannot invoke "Object.equals(Object)" because "person" is null
+	at ru.danilov.raceapi.controllers.GameController.getPerson(GameController.java:40) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.8.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.8.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.0.3.jar:6.0.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.0.3.jar:6.0.3]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100) ~[spring-security-web-6.0.3.jar:6.0.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.3.jar:6.0.3]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-6.0.3.jar:6.0.3]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-6.0.3.jar:6.0.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.3.jar:6.0.3]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.0.3.jar:6.0.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.3.jar:6.0.3]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.0.3.jar:6.0.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.3.jar:6.0.3]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.0.3.jar:6.0.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.3.jar:6.0.3]
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:170) ~[spring-security-web-6.0.3.jar:6.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.3.jar:6.0.3]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.0.3.jar:6.0.3]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.0.3.jar:6.0.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.3.jar:6.0.3]
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:117) ~[spring-security-web-6.0.3.jar:6.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.3.jar:6.0.3]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.0.3.jar:6.0.3]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.0.3.jar:6.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.3.jar:6.0.3]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.0.3.jar:6.0.3]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.0.3.jar:6.0.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.3.jar:6.0.3]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.0.3.jar:6.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.3.jar:6.0.3]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.0.3.jar:6.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.3.jar:6.0.3]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.0.3.jar:6.0.3]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.0.3.jar:6.0.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-05-17T13:07:28.463+03:00  INFO 10264 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-17T13:07:28.483+03:00  INFO 10264 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-17T13:07:28.490+03:00  INFO 10264 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-05-17T13:08:18.035+03:00  INFO 11944 --- [main] ru.danilov.raceapi.RaceApiApplication    : Starting RaceApiApplication using Java 17.0.5 with PID 11944 (D:\работа\projects\raceAPI\target\classes started by danilov-na in D:\работа\projects\raceAPI)
+2023-05-17T13:08:18.040+03:00  INFO 11944 --- [main] ru.danilov.raceapi.RaceApiApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-05-17T13:08:20.037+03:00  INFO 11944 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-17T13:08:20.068+03:00  INFO 11944 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 0 JPA repository interfaces.
+2023-05-17T13:08:22.869+03:00  INFO 11944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-17T13:08:22.921+03:00  INFO 11944 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-17T13:08:22.922+03:00  INFO 11944 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-17T13:08:23.168+03:00  INFO 11944 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-17T13:08:23.169+03:00  INFO 11944 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5044 ms
+2023-05-17T13:08:24.159+03:00  INFO 11944 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-17T13:08:25.476+03:00  INFO 11944 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@c7f4457
+2023-05-17T13:08:25.501+03:00  INFO 11944 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-17T13:08:26.016+03:00  INFO 11944 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-17T13:08:26.511+03:00  INFO 11944 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-17T13:08:29.875+03:00  INFO 11944 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-17T13:08:31.600+03:00  INFO 11944 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-17T13:08:31.689+03:00  INFO 11944 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-17T13:08:32.043+03:00  WARN 11944 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-17T13:08:32.232+03:00  WARN 11944 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 79bccaf6-5f27-4acc-a5c1-15b2c74b5c36
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-05-17T13:08:33.106+03:00  INFO 11944 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@11c3ce6a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1a3b1f7e, org.springframework.security.web.context.SecurityContextHolderFilter@5fb44964, org.springframework.security.web.header.HeaderWriterFilter@5f3f57ff, org.springframework.security.web.csrf.CsrfFilter@6e090aaa, org.springframework.security.web.authentication.logout.LogoutFilter@33a71d23, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@11f3400c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1d444652, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@55d99dc3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@22899683, org.springframework.security.web.access.ExceptionTranslationFilter@5996d6f2, org.springframework.security.web.access.intercept.AuthorizationFilter@70ee9d31]
+2023-05-17T13:08:35.225+03:00  WARN 11944 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-05-17T13:08:36.324+03:00  INFO 11944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-17T13:08:36.382+03:00  INFO 11944 --- [main] ru.danilov.raceapi.RaceApiApplication    : Started RaceApiApplication in 20.302 seconds (process running for 25.266)
+2023-05-17T13:08:51.193+03:00  INFO 11944 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-17T13:08:51.194+03:00  INFO 11944 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-17T13:08:51.198+03:00  INFO 11944 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2023-05-17T13:08:51.814+03:00  INFO 11944 --- [http-nio-8080-exec-1] ru.danilov.raceapi.RaceApiApplication    : GET: /game
+2023-05-17T13:14:17.681+03:00  INFO 11944 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-17T13:14:17.684+03:00  INFO 11944 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-17T13:14:17.690+03:00  INFO 11944 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-05-17T13:14:29.674+03:00  INFO 6084 --- [main] ru.danilov.raceapi.RaceApiApplication    : Starting RaceApiApplication using Java 17.0.5 with PID 6084 (D:\работа\projects\raceAPI\target\classes started by danilov-na in D:\работа\projects\raceAPI)
+2023-05-17T13:14:29.679+03:00  INFO 6084 --- [main] ru.danilov.raceapi.RaceApiApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-05-17T13:14:30.873+03:00  INFO 6084 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-17T13:14:30.934+03:00  INFO 6084 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 0 JPA repository interfaces.
+2023-05-17T13:14:31.668+03:00  INFO 6084 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-17T13:14:31.680+03:00  INFO 6084 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-17T13:14:31.680+03:00  INFO 6084 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-17T13:14:31.829+03:00  INFO 6084 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-17T13:14:31.830+03:00  INFO 6084 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2071 ms
+2023-05-17T13:14:32.000+03:00  INFO 6084 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-17T13:14:32.147+03:00  INFO 6084 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@28e0e464
+2023-05-17T13:14:32.149+03:00  INFO 6084 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-17T13:14:32.197+03:00  INFO 6084 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-17T13:14:32.275+03:00  INFO 6084 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-17T13:14:32.731+03:00  INFO 6084 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-17T13:14:33.109+03:00  INFO 6084 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-17T13:14:33.121+03:00  INFO 6084 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-17T13:14:33.191+03:00  WARN 6084 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-17T13:14:33.229+03:00  WARN 6084 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 2a33e3ba-1cd9-42f7-9cd2-0370cebde69e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-05-17T13:14:33.420+03:00  INFO 6084 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3f4a605f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@30c8c6ab, org.springframework.security.web.context.SecurityContextHolderFilter@6697f3d, org.springframework.security.web.header.HeaderWriterFilter@e0847a9, org.springframework.security.web.csrf.CsrfFilter@6533629, org.springframework.security.web.authentication.logout.LogoutFilter@768f4b42, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4e2824b1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3a72e2e8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6a278584, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@bcfe29c, org.springframework.security.web.access.ExceptionTranslationFilter@51813065, org.springframework.security.web.access.intercept.AuthorizationFilter@5f3f57ff]
+2023-05-17T13:14:33.804+03:00  WARN 6084 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-05-17T13:14:33.994+03:00  INFO 6084 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-17T13:14:34.009+03:00  INFO 6084 --- [main] ru.danilov.raceapi.RaceApiApplication    : Started RaceApiApplication in 5.507 seconds (process running for 6.491)
+2023-05-17T13:14:44.413+03:00  INFO 6084 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-17T13:14:44.414+03:00  INFO 6084 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-17T13:14:44.415+03:00  INFO 6084 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-17T13:15:53.229+03:00  INFO 6084 --- [http-nio-8080-exec-7] ru.danilov.raceapi.RaceApiApplication    : GET: /game
+2023-05-17T13:27:09.190+03:00  INFO 6084 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-17T13:27:09.300+03:00  INFO 6084 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-17T13:27:09.332+03:00  INFO 6084 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-05-17T13:27:31.668+03:00  INFO 4848 --- [main] ru.danilov.raceapi.RaceApiApplication    : Starting RaceApiApplication using Java 17.0.5 with PID 4848 (D:\работа\projects\raceAPI\target\classes started by danilov-na in D:\работа\projects\raceAPI)
+2023-05-17T13:27:31.682+03:00  INFO 4848 --- [main] ru.danilov.raceapi.RaceApiApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-05-17T13:27:33.515+03:00  INFO 4848 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-17T13:27:33.556+03:00  INFO 4848 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 0 JPA repository interfaces.
+2023-05-17T13:27:34.640+03:00  INFO 4848 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-17T13:27:34.660+03:00  INFO 4848 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-17T13:27:34.660+03:00  INFO 4848 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-17T13:27:34.836+03:00  INFO 4848 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-17T13:27:34.837+03:00  INFO 4848 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2983 ms
+2023-05-17T13:27:35.103+03:00  INFO 4848 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-17T13:27:35.453+03:00  INFO 4848 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@c7f4457
+2023-05-17T13:27:35.454+03:00  INFO 4848 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-17T13:27:35.536+03:00  INFO 4848 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-17T13:27:35.623+03:00  INFO 4848 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-17T13:27:36.491+03:00  INFO 4848 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-17T13:27:37.168+03:00  INFO 4848 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-17T13:27:37.181+03:00  INFO 4848 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-17T13:27:37.266+03:00  WARN 4848 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-17T13:27:37.312+03:00  WARN 4848 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 43d9019c-1339-4edc-9475-11da6b8b53c8
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-05-17T13:27:37.621+03:00  INFO 4848 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@11c3ce6a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1a3b1f7e, org.springframework.security.web.context.SecurityContextHolderFilter@5fb44964, org.springframework.security.web.header.HeaderWriterFilter@5f3f57ff, org.springframework.security.web.csrf.CsrfFilter@6e090aaa, org.springframework.security.web.authentication.logout.LogoutFilter@33a71d23, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@11f3400c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1d444652, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@55d99dc3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@22899683, org.springframework.security.web.access.ExceptionTranslationFilter@5996d6f2, org.springframework.security.web.access.intercept.AuthorizationFilter@70ee9d31]
+2023-05-17T13:27:38.068+03:00  WARN 4848 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-05-17T13:27:38.334+03:00  INFO 4848 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-17T13:27:38.347+03:00  INFO 4848 --- [main] ru.danilov.raceapi.RaceApiApplication    : Started RaceApiApplication in 8.018 seconds (process running for 10.818)
+2023-05-17T13:28:03.216+03:00  INFO 4848 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-17T13:28:03.216+03:00  INFO 4848 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-17T13:28:03.217+03:00  INFO 4848 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-17T13:28:03.382+03:00  INFO 4848 --- [http-nio-8080-exec-1] ru.danilov.raceapi.RaceApiApplication    : GET: /game
+2023-05-17T13:28:06.458+03:00  INFO 4848 --- [http-nio-8080-exec-3] ru.danilov.raceapi.RaceApiApplication    : GET: /game/full
+2023-05-17T13:35:40.948+03:00  INFO 4848 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-17T13:35:41.128+03:00  INFO 4848 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-17T13:35:41.198+03:00  INFO 4848 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
