@@ -3,6 +3,7 @@ package ru.danilov.raceapi.models;
 import engine.Game;
 
 public class CurrentGame {
+
     private long id;
     private Game game;
     private Person peronOne;
@@ -11,7 +12,7 @@ public class CurrentGame {
     public CurrentGame() {
     }
 
-    public CurrentGame(int id, Game game, Person peronOne, Person peronTwo) {
+    public CurrentGame(long id, Game game, Person peronOne, Person peronTwo) {
         this.id = id;
         this.game = game;
         this.peronOne = peronOne;

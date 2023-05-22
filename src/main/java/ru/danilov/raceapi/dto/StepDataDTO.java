@@ -1,4 +1,4 @@
-package ru.danilov.raceapi.DTO;
+package ru.danilov.raceapi.dto;
 
 public class StepDataDTO {
     private byte direction;

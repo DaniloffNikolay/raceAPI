@@ -27,7 +27,7 @@ public class Utils {
 
     public static CurrentGame getCurrentGame() {
         if (currentGame == null) {
-            currentGame = new CurrentGame(1, getGame(), personOne, personTwo);
+            currentGame = new CurrentGame(getGame(), personOne, personTwo);
 
             personOne.setCurrentGame(currentGame);
             personTwo.setCurrentGame(currentGame);
