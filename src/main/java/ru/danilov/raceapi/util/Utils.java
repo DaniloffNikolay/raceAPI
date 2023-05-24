@@ -8,7 +8,7 @@ import ru.danilov.raceapi.models.Person;
 
 public class Utils {
 
-    private static Person personOne = new Person(1, "Player one", null);
+    /*private static Person personOne = new Person(1, "Player one", null);
     private static Person personTwo = new Person(2, "Player two", null);
 
     private static CurrentGame currentGame;
@@ -44,5 +44,5 @@ public class Utils {
         }
 
         return game;
-    }
+    }*/
 }

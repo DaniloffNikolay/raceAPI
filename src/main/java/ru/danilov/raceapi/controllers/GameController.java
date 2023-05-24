@@ -153,6 +153,8 @@ public class GameController {
             readyGames.add(new ReadyGame(currentGame.getId(), currentGame.getPeronOne().getName()));
         }
 
+        System.out.println("readyGames.size() = " + readyGames.size());
+
         return ResponseEntity.status(HttpStatus.OK).body(readyGames);
     }
 }

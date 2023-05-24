@@ -14,9 +14,9 @@ import java.util.List;
 @Component
 public class ImplCurrentGamesRepository implements CurrentGamesRepository {
 
-    private static final List<CurrentGame> games = new ArrayList<>(0);
+    private static final List<CurrentGame> games = new ArrayList<>();
 
-    private static long count = 0;
+    private static long count = 1;
 
     @Override
     public CurrentGame getCurrentGameByPerson(Person person) {
@@ -37,6 +37,10 @@ public class ImplCurrentGamesRepository implements CurrentGamesRepository {
         CurrentGame currentGame = new CurrentGame(count, game, person, null);
         count++;
 
+        games.add(currentGame);
+
+        System.out.println("games.size()" + games.size());
+
         return currentGame;
     }
 
@@ -55,12 +59,15 @@ public class ImplCurrentGamesRepository implements CurrentGamesRepository {
 
     @Override
     public List<CurrentGame> getAllReadyGames() {
-        List<CurrentGame> result = new ArrayList<>(0);
+        List<CurrentGame> result = new ArrayList<>();
 
         for (CurrentGame currentGame : games) {
-            if (currentGame.getPeronTwo() != null)
+            if (currentGame.getPeronTwo() == null)
                 result.add(currentGame);
         }
+
+        System.out.println("games.size()" + games.size());
+        System.out.println("result.size() = " + result.size());
 
         return result;
     }

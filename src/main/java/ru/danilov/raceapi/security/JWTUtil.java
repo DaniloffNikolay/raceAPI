@@ -17,12 +17,13 @@ import java.util.Date;
  */
 @Component
 public class JWTUtil {
+    public static int MINUTES_OF_TOKEN = 1440;
 
     @Value("${jwt_secret}")
     private String secret;
 
     public String generateToken(String username) {
-        Date expirationDate = Date.from(ZonedDateTime.now().plusMinutes(1440).toInstant());
+        Date expirationDate = Date.from(ZonedDateTime.now().plusMinutes(MINUTES_OF_TOKEN).toInstant());
 
         return JWT.create()
                 .withSubject("User details")
