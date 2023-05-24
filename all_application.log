@@ -203,3 +203,35 @@
 2023-05-24 12:19:34.926  INFO 9004 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-05-24 12:19:34.955  INFO 9004 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2023-05-24 12:19:34.977  INFO 9004 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-05-24 13:03:29.343  INFO 5920 --- [main] ru.danilov.raceapi.RaceApiApplication    : Starting RaceApiApplication using Java 17.0.5 on DANILOVNA with PID 5920 (D:\работа\projects\raceAPI\target\classes started by danilov-na in D:\работа\projects\raceAPI)
+2023-05-24 13:03:29.360  INFO 5920 --- [main] ru.danilov.raceapi.RaceApiApplication    : No active profile set, falling back to default profiles: default
+2023-05-24 13:03:31.243  INFO 5920 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-24 13:03:31.350  INFO 5920 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 98 ms. Found 1 JPA repository interfaces.
+2023-05-24 13:03:31.792  INFO 5920 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@68868328' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-24 13:03:31.796  INFO 5920 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-24 13:03:32.185  INFO 5920 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-05-24 13:03:32.197  INFO 5920 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-24 13:03:32.198  INFO 5920 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-05-24 13:03:32.335  INFO 5920 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-24 13:03:32.335  INFO 5920 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2891 ms
+2023-05-24 13:03:32.527  INFO 5920 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-24 13:03:32.797  INFO 5920 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-24 13:03:32.919  INFO 5920 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-24 13:03:33.107  INFO 5920 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2023-05-24 13:03:33.423  INFO 5920 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-24 13:03:33.654  INFO 5920 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-24 13:03:34.929  INFO 5920 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-24 13:03:34.939  INFO 5920 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-24 13:03:35.838  WARN 5920 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-24 13:03:36.216  INFO 5920 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6ed7c178, org.springframework.security.web.context.SecurityContextPersistenceFilter@1fa29b9e, org.springframework.security.web.header.HeaderWriterFilter@176054b7, org.springframework.security.web.authentication.logout.LogoutFilter@53da2aec, ru.danilov.raceapi.config.JWTFilter@c29b0dc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2f29e630, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@62159fd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1c382179, org.springframework.security.web.session.SessionManagementFilter@4fe9a396, org.springframework.security.web.access.ExceptionTranslationFilter@271a140c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3b780b5c]
+2023-05-24 13:03:36.881  INFO 5920 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-05-24 13:03:36.903  INFO 5920 --- [main] ru.danilov.raceapi.RaceApiApplication    : Started RaceApiApplication in 8.105 seconds (JVM running for 10.72)
+2023-05-24 13:04:02.589  INFO 5920 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-24 13:04:02.589  INFO 5920 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-24 13:04:02.591  INFO 5920 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-05-24 13:04:03.147 DEBUG 5920 --- [http-nio-8081-exec-1] org.hibernate.SQL                        : select person0_.id as id1_0_, person0_.jwt_token as jwt_toke2_0_, person0_.name as name3_0_, person0_.password as password4_0_, person0_.role as role5_0_ from person person0_ where person0_.name=?
+2023-05-24 13:04:03.156 TRACE 5920 --- [http-nio-8081-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [user]
+2023-05-24 13:04:03.236  INFO 5920 --- [http-nio-8081-exec-1] ru.danilov.raceapi.RaceApiApplication    : GET: /game/list-ready
+2023-05-24 14:01:46.603  INFO 5920 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-24 14:01:46.939  INFO 5920 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-24 14:01:47.035  INFO 5920 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

@@ -39,8 +39,6 @@ public class ImplCurrentGamesRepository implements CurrentGamesRepository {
 
         games.add(currentGame);
 
-        System.out.println("games.size()" + games.size());
-
         return currentGame;
     }
 
@@ -65,9 +63,6 @@ public class ImplCurrentGamesRepository implements CurrentGamesRepository {
             if (currentGame.getPeronTwo() == null)
                 result.add(currentGame);
         }
-
-        System.out.println("games.size()" + games.size());
-        System.out.println("result.size() = " + result.size());
 
         return result;
     }
